@@ -3,14 +3,15 @@
 > MERN Stack Developer from Mumbai building AI-powered web products.
 > BSc IT · Lords Universal College of Engineering · CGPA 8.6
 > Placement Cell — Technical Incharge
+> Social Media / Media Head Of The Lords Universal College (2025-2026)
 
 ---
 
 ## 🚀 What I'm up to
 
 - 🧠 **Building [LandIt.AI](https://github.com/nitesh8652)** — a generative AI resume analyser that gives ATS scores, keyword gap analysis, and smart rewrite suggestions
-- 💼 **Shipped [JobEase](https://github.com/nitesh8652)** — a full MERN job portal with an AI resume builder, role-based dashboards (recruiter + job seeker), and real-time job demand graphs via Recharts
-- 📐 Deepening **system design** and **DSA in Java** to strengthen engineering fundamentals
+- 💼 **Shipped [JobEase](https://github.com/nitesh8652)** — a full MERN job portal with an AI resume builder, role-based dashboards (recruiter + job seeker), and real-time resume maker
+- 📐 Deepening **system design** to strengthen engineering fundamentals
 - 🐍 Expanding into **Python + LLM APIs** — Full Stack → AI Product Engineering is the trajectory
 - 🎯 Actively seeking entry-level / internship roles in full-stack or AI-integrated web development
 
