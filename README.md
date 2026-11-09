@@ -1,69 +1,73 @@
-# Hey, I'm Nitesh Salian 👋
+<h1 align="center">Nitesh Salian</h1>
 
-> MERN Stack Developer from Mumbai building AI-powered web products.
-> BSc IT · Lords Universal College of Engineering · CGPA 8.6
-> Placement Cell — Technical Incharge
-> Social Media / Media Head Of The Lords Universal College (2025-2026)
+<p align="center">
+  <code>full-stack engineer → AI product engineer</code><br/>
+  Mumbai · Engineer @ Express Rupya Capital · BSc IT, CGPA 8.6
+</p>
 
----
-
-## 🚀 What I'm up to
-
-- 🧠 **Building [LandIt.AI](https://github.com/nitesh8652)** — a generative AI resume analyser that gives ATS scores, keyword gap analysis, and smart rewrite suggestions
-- 💼 **Shipped [JobEase](https://github.com/nitesh8652)** — a full MERN job portal with an AI resume builder, role-based dashboards (recruiter + job seeker), and real-time resume maker
-- 📐 Deepening **system design** to strengthen engineering fundamentals
-- 🐍 Expanding into **Python + LLM APIs** — Full Stack → AI Product Engineering is the trajectory
-- 🎯 Actively seeking entry-level / internship roles in full-stack or AI-integrated web development
-
----
-
-## 🛠️ Projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| **LandIt.AI** | AI resume analyser — ATS scoring, keyword gap detection, AI rewrites | React, Node.js, Generative AI APIs |
-| **JobEase** | MERN job portal with AI resume builder + real-time demand graphs | MongoDB, Express, React, Node.js, Recharts |
-| **Tasker** | Task manager with Google OAuth, calendar view, and automated email reminders | React, Supabase, Node.js, Edge Functions |
-| **URL Shortener** | Deployed shortener with separate frontend and backend services | Express, React, Render |
+```ts
+const nitesh = {
+  day_job:   "Engineer @ Express Rupya Capital (fintech), since Jun 2026",
+  maintains: "internal CRM dashboard: React, Node/Express, MySQL (Sequelize)",
+  building:  "LandIt.AI, a resume analyser on the Claude API",
+  learning:  ["system design", "Next.js + TypeScript", "RAG / LLM apps", "Python", "DSA in Java"],
+  off_hours: ["Placement Cell Technical Incharge (600+ students)", "freelance sites for small businesses"],
+  contact:   "see bottom of page",
+};
+```
 
 ---
 
-## 💻 Tech Stack
+## How I build
 
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+Most of my projects are some variation of this shape:
+
+```mermaid
+flowchart LR
+  A["React + Vite"] -->|"REST + JWT"| B["Express API"]
+  B --> C[("MongoDB / MySQL")]
+  B --> D["LLM API (Claude)"]
+  A -.->|"auth, storage, realtime"| E["Supabase / Firebase"]
+```
 
 ---
 
-## 📊 GitHub Stats
+## Shipped & in progress
 
-![](https://github-readme-stats.vercel.app/api?username=nitesh8652&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-![](https://nirzak-streak-stats.vercel.app/?user=nitesh8652&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=nitesh8652&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=nitesh8652&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-
-## 🌐 Find me here
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nitesh-salian-4792602a4/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_niteeesh)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:niteshsalian8652085233@gmail.com)
+| Project | Problem it solves | Stack | Code |
+|---|---|---|---|
+| **LandIt.AI** | Tells you why your resume fails an ATS: score, keyword gaps, rewrite suggestions | React, Node.js, Claude API | [repo](https://github.com/nitesh8652/LandIt.AI) |
+| **JobEase** | Job portal with separate recruiter and job-seeker dashboards, AI resume builder, demand graphs | MongoDB, Express, React, Node.js, Recharts | [repo](https://github.com/nitesh8652/JobEase) |
+| **ClipSync** | Copy on one device, paste on another | React, Vite, Firebase Firestore, Cloudinary | [repo](https://github.com/nitesh8652/ClipSync) |
+| **Tasker** | Tasks with Google sign-in, calendar view and emailed reminders | React, Supabase, Edge Functions | [repo](https://github.com/nitesh8652/Tasker) |
+| **URL Shortener** | Short links, frontend and backend deployed as separate services | Express, React, MongoDB Atlas, Render | [repo](https://github.com/nitesh8652/URL-Shortener) |
 
 ---
 
-> *"I don't just write code — I build products that solve real problems."*
+## Outside the editor
 
-[![](https://visitcount.itsvg.in/api?id=nitesh8652&icon=0&color=0)](https://visitcount.itsvg.in)
+- **Placement Cell, Technical Incharge**: handle the technical side of placements for 600+ students
+- **Aagaaz (college fest), Social Media Head**: grew the page from 300–500 followers to 2,000+
+- **CorePlus**: smart safety helmet, 2nd place in an intra-college IoT competition
+
+---
+
+## Stack
+
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404d59?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+
+---
+
+## Contact
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nitesh-salian-4792602a4/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:niteshsalian8652085233@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/_niteeesh)
